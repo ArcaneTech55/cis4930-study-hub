@@ -1,0 +1,2 @@
+CIS 4930 Study Hub V6
+Terraform chapter rebuilt so all HCL examples render as single complete blocks.
