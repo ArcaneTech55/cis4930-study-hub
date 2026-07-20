@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CIS 4930 Study Hub</title><link rel="stylesheet" href="styles-v7.css?v=7.0.0">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="badge">CIS 4930</span><b>Study Hub</b><span class="versionBadge">V7</span></div>
+  <nav>
+    <button data-view="notes" class="nav active">Notes</button>
+    <button data-view="quiz" class="nav">Quiz</button>
+    <button data-view="flashcards" class="nav">Flashcards</button>
+    <button data-view="traps" class="nav">Professor Says</button>
+    <button data-view="resources" class="nav">Resources</button>
+  </nav>
+  <button id="theme" class="theme">☾</button>
+</header>
+<div class="subbar">
+  <div class="search"><span>⌕</span><input id="search" placeholder="Search all chapters, commands, and concepts…"></div>
+  <div class="progressText"><span id="progressLabel">0% studied</span><i><b id="progressBar"></b></i></div>
+</div>
+<div class="layout">
+  <aside class="left"><h4>CHAPTERS</h4><div id="chapters"></div></aside>
+  <main id="content"></main>
+  <aside class="right"><h4>ON THIS PAGE</h4><div id="toc"></div></aside>
+</div>
+<script src="data-v7.js?v=7.0.0"></script><script src="app-v7.js?v=7.0.0"></script>
+</body></html>
