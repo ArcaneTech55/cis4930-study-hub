@@ -1,0 +1,2 @@
+CIS 4930 Study Hub V9 ORDERED AND RENUMBERED
+Every main chapter now uses consecutive section numbering without backward jumps.
